@@ -1,0 +1,10 @@
+C:\Users\RFreeman\OneDrive\Documents\Teaching\COMP1030\Week 7\Week7\Week7\bin\Debug\Week7.exe.config
+C:\Users\RFreeman\OneDrive\Documents\Teaching\COMP1030\Week 7\Week7\Week7\bin\Debug\Week7.exe
+C:\Users\RFreeman\OneDrive\Documents\Teaching\COMP1030\Week 7\Week7\Week7\bin\Debug\Week7.pdb
+C:\Users\RFreeman\OneDrive\Documents\Teaching\COMP1030\Week 7\Week7\Week7\obj\Debug\Week7.csprojResolveAssemblyReference.cache
+C:\Users\RFreeman\OneDrive\Documents\Teaching\COMP1030\Week 7\Week7\Week7\obj\Debug\Week7.Form1.resources
+C:\Users\RFreeman\OneDrive\Documents\Teaching\COMP1030\Week 7\Week7\Week7\obj\Debug\Week7.Properties.Resources.resources
+C:\Users\RFreeman\OneDrive\Documents\Teaching\COMP1030\Week 7\Week7\Week7\obj\Debug\Week7.csproj.GenerateResource.Cache
+C:\Users\RFreeman\OneDrive\Documents\Teaching\COMP1030\Week 7\Week7\Week7\obj\Debug\Week7.csproj.CoreCompileInputs.cache
+C:\Users\RFreeman\OneDrive\Documents\Teaching\COMP1030\Week 7\Week7\Week7\obj\Debug\Week7.exe
+C:\Users\RFreeman\OneDrive\Documents\Teaching\COMP1030\Week 7\Week7\Week7\obj\Debug\Week7.pdb
