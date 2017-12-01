@@ -54,13 +54,42 @@ namespace Week7
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            // capture x and y as variables
-            Int32 x = Convert.ToInt32(txtX.Text);
-            Int32 y = Convert.ToInt32(txtY.Text);
+            // clear the message label
+            lblSum.Text = "";
+
+            // capture x and y and try to convert the to numeric variables
+            // Assume the form is complete
+            bool ok = true;
+
+            // check if the X input is numeric
+            if (Int32.TryParse(txtX.Text, out Int32 x) == false)
+            {
+                lblSum.Text = "Enter a number for x. ";
+                ok = false;
+            }
+            else if (x < 0)  // x is a negative number
+            {
+                lblSum.Text = "Enter a positive number for x. ";
+                ok = false;
+            }
+
+            // check if the Y input is numeric
+            if (Int32.TryParse(txtY.Text, out Int32 y) == false)
+            {
+                lblSum.Text += "Enter a number for y.";
+                ok = false;
+            }
+            else if (y < 0)
+            {
+                lblSum.Text += "Enter a positive number for y. ";
+                ok = false;
+            }
 
             // send x and y to the AddNumbers method & display the result
-            Int32 result = AddNumbers(x,y);
-            lblSum.Text = Convert.ToString(result);
+            if (ok == true) { 
+                Int32 result = AddNumbers(x,y);
+                lblSum.Text = Convert.ToString(result);
+            }
         }
 
         // method accepts 2 integer inputs and returns another integer back
